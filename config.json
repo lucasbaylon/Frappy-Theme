@@ -1,0 +1,78 @@
+{
+	"author":		"ZaRToP",
+	"version":		"v1.0.0",
+	"date":			"11/04/2023",
+	"x":			"100vw - (100% + 150px)",
+	"y":			"100vh - (100% - 55px)",
+	"width":		400,
+	"height":		300,
+	"font":			[ "Azonix.otf", 42 ],
+	"scale":		1.25,
+	"opacity":		1.0,
+	"elements": [
+		{
+			"name":			"background",
+			"type":			"image",
+			"file":			"background.png",
+			"x":			-60,
+			"y":			-20,
+			"scale":		1.7
+		},
+		{
+			"name":			"mmr",
+			"type":			"text",
+			"value":		"{{MMR}}",
+			"x":			210,
+			"y":			58,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.28
+		},
+        {
+			"name":			"mmrcumulchange",
+			"type":			"text",
+			"value":		"{{MMRCumulChange}}",
+			"sign":			"MMRCumulChange",
+			"x":			180,
+			"y":			102,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 255, 255 ],
+			"scale":		0.24
+		},
+        {
+			"name":			"win",
+			"type":			"text",
+			"value":		"{{Win}}",
+			"x":			180,
+			"y":			138,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 0, 255, 0 ],
+			"scale":		0.24
+		},
+		{
+			"name":			"loss",
+			"type":			"text",
+			"value":		"{{Loss}}",
+			"x":			180,
+			"y":			172,
+			"align":		"right",
+			"valign":		"middle",
+			"color":		[ 255, 0, 0 ],
+			"scale":		0.24
+		},
+		{
+			"name":			"rank_boost",
+			"type":			"image",
+			"file":			"{{Rank}}",
+			"x":			"100% - 10px",
+			"y":			"42.2%",
+			"align":		"center",
+			"valign":		"middle",
+			"opacity":		0.25,
+			"scale":		3
+		}
+	]
+}
