@@ -27,7 +27,7 @@
 			"align":		"right",
 			"valign":		"middle",
 			"color":		[ 255, 255, 255 ],
-			"scale":		0.28
+			"scale":		0.34
 		},
         {
 			"name":			"mmrcumulchange",
